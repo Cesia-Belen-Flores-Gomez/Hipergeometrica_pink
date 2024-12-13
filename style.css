@@ -1,0 +1,78 @@
+/* Estilos generales */
+body {
+    font-family: 'Courier New', monospace;
+    background-color: #ffe6f9;
+    color: #ff1493;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #ffe6f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px #ff69b4;
+    text-align: center;
+}
+
+h1, h2 {
+    color: #ff1493;
+    text-shadow: 0 0 10px #ff69b4, 0 0 20px #ff1493;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label {
+    font-size: 16px;
+    color: #ff1493;
+}
+
+textarea, input, select {
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #ff69b4;
+    background-color: #ffe6f9;
+    color: #ff1493;
+    font-family: 'Courier New', monospace;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: none;
+}
+
+button {
+    padding: 12px;
+    background-color: #ff1493;
+    color: #ffe6f9;
+    border: 1px solid #ff69b4;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Courier New', monospace;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+button:hover {
+    transform: scale(1.1);
+    background-color: #ff69b4;
+}
+
+.result {
+    margin-top: 30px;
+    color: #ff1493;
+}
+
+canvas {
+    margin-top: 30px;
+    border: 1px solid #ff69b4;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #ff69b4;
+}
